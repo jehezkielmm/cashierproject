@@ -1,0 +1,17 @@
+
+img{
+	width: 350px;
+	height: 400px;
+}
+$quantity-btn-color: #95d7fc;
+.product {
+	width: 30%;
+	margin: 30px;
+}
+.form-group {
+	width: 30%;
+	margin: 30px;
+	.glyphicon {
+		color: $quantity-btn-color;
+	}
+}

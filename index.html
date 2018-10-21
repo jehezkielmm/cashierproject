@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<title>
+			Burjo Cahsierism
+		</title>
+	</head>
+
+	<body>
+		<div class="container-fluid" align="center">
+			<h4>Cashier App</h4>
+			<br>
+			<h2>Welcome to Burjo Slengean! Please place your order below</h2>
+
+			<hr>
+			<br>
+
+			<h3>Beverages</h3>
+			<br>
+		
+			<div class="row">
+				<div class="col-sm">
+					<img src="extrajos.jpg">
+					<p>Extra Jos - Rp10.000</p>
+					<input type="number" id="extrajosqty">
+				</div>
+
+				<div class="col-sm">
+					<img src="luwakwhite.jpg">
+					<p>Luwak White Coffee - Rp50.000</p>
+					<input type="number" id="luwakwhiteqty">
+				</div>
+
+				<div class="col-sm">
+					<img src="coffeemix.jpg">
+					<p>Indocafe Coffeemix - Rp7.500</p>
+					<input type="number" id="coffeemixqty">
+				</div>
+
+				<div class="col-sm">
+					<img src="nutrisari.jpg">
+					<p>Nutri Sari - Rp7.000</p>
+					<input type="number" id="nutrisariqty">
+				</div>
+			</div>
+
+
+			<br>
+			<div class="row">
+				<div class="col-sm">
+					<img src="kapalapi.jpg">
+					<p>Kopi Kapal Api - Rp6.750</p>
+					<input type="number" id="kapalapiqty">
+				</div>
+				<div class="col-sm">
+					<img src="goodday.jpg">
+					<p>Kopi Good Day - Rp6.000</p>
+					<input type="number" id="gooddayqty">
+				</div>
+				<div class="col-sm">
+					<img src="aires.jpg">
+					<p>Air Es - Rp4.000</p>
+					<input type="number" id="airesqty">
+				</div>
+				<div class="col-sm">
+					<img src="sogem.jpg">
+					<p> Soda Gembira - Rp10.000</p>
+					<input type="number" id="sogemqty">
+				</div>
+			</div>
+
+			<br>
+			<br>
+			<h3>Food</h3>
+			<div class="row">
+				<div class="col-sm">
+					<img src="magelangan.jpg">
+					<p>Magelangan - Rp18.000</p>
+					<input type="number" id="magelanganqty">
+				</div>
+				<div class="col-sm">
+					<img src="nasisar.jpg">
+					<p>Nasi Sarden - Rp12.000</p>
+					<input type="number" id="nasisarqty">
+				</div>
+				<div class="col-sm">
+					<img src="nastel.jpg">
+					<p>Nasi Telur - Rp15.000</p>
+					<input type="number" id="nastelqty">
+				</div>
+				<div class="col-sm">
+					<img src="intel.jpg">
+					<p>Ramen - Rp8.000</p>
+					<input type="number" id="intelqty">
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class= "col-sm">
+					<h5 style="display: inline-block;">Total Items: </h5>
+					<input type="text" id="totalitems" disabled="">
+				</div>
+			</div>
+			<div class="row">
+				<div class= "col-sm">
+					<h5  style="display: inline-block;">Total Price: </h5>
+					<input type="text" id="totalprice" disabled="">
+				</div>
+			</div>
+			<div class="row">
+				<div class= "col-sm">
+					<h5  style="display: inline-block;">Payment</h5>
+					<input type="number" id="payment">
+				</div>
+			</div>
+			<div class="row">
+				<div class= "col-sm">
+					<h5  style="display: inline-block;">Voucher/Coupon Discount: </h5>
+					<input type="number" id="discount">
+				</div>
+			</div>
+			<div class="row">
+				<div class= "col-sm">
+					<h5 style="display: inline-block;">Change Due: </h5>
+					<input type="number" id= "change" disabled="">
+				</div>
+			</div>
+		</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+	</body>
+<html>
